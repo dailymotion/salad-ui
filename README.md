@@ -10,7 +10,7 @@ You can either include all the components:
 npm i --save salad-ui
 ```
 
-```
+```js
 import Salad from 'salad-ui'
 class myComponent extends React.Component{
   render(){
@@ -25,7 +25,7 @@ Or some of the elements separately (lightweight!)
 npm i --save salad-ui.form
 ```
 
-```
+```js
 import { Autocomplete } from 'salad-ui.form'
 class myComponent extends React.Component{
   render(){
